@@ -1,0 +1,12 @@
+Algorithm to solve dynamic connectivity
+
+Quick find is too slow
+
+Data Structure Required : Array of size N
+
+Cost Model :
+				initialize		union		find
+Quick Find		n				n			1
+
+Defect : Union is too expensive
+Takes n^2 array accesses to process sequence of N union commands on N objects
